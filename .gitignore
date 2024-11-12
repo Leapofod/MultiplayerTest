@@ -1,0 +1,6 @@
+# Build Folder
+[Bb]uild/
+
+# Clangd LSP
+.cache
+compile_commands.json
