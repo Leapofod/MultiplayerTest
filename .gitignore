@@ -1,5 +1,5 @@
 # Build Folder
-[Bb]uild/
+[Bb]uild*/
 
 # Clangd LSP
 .cache
