@@ -57,3 +57,8 @@ if (APPLE)
     target_link_libraries(${PROJECT_NAME} "-framework Cocoa")
     target_link_libraries(${PROJECT_NAME} "-framework OpenGL")
 endif()
+
+if (WIN32)
+    target_link_libraries(${PROJECT_NAME} wsock32)
+    target_link_libraries(${PROJECT_NAME} ws2_32)
+endif()
